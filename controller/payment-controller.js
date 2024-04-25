@@ -35,7 +35,7 @@ export const paymentVerification=async(req,resp)=>{
         razorpay_payment_id,
         razorpay_signature
       })
-      resp.redirect(`http://localhost:3000/paymentsuccess?reference=${razorpay_payment_id}`)
+      resp.redirect(`https://mayank-flipkartclone.netlify.app/paymentsuccess?reference=${razorpay_payment_id}`)
     }else{
       resp.status(400).json({
     success:false
