@@ -1,0 +1,5 @@
+/.env
+/node_modules
+/package-lock.json
+/paytm
+/paytm-20230918T111217Z-001.zip
